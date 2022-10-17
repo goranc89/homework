@@ -1,0 +1,44 @@
+#two {
+    width: 100%;
+}
+
+h4, h2 {
+    text-align: center;
+}
+    
+.page3 {
+    border: 2px solid black;
+    width: 60%;
+}
+
+.picture img{ 
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+}
+
+table, tr, td ,th{
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+table {
+    
+    justify-content: center;
+    display: flex;
+}
+
+.bold-center{
+    font-weight: bold;
+    text-align: center;
+}
+
+.not-bold {
+    font-weight: lighter;
+}
+
+iframe {
+    width: 100%;
+}
+
