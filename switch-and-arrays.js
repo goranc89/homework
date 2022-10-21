@@ -279,3 +279,57 @@ switch (operation) {
 
  }  }
 console.log(result)
+
+
+
+//SWITCH
+
+//1 
+
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+console.log(months[0])
+console.log(months[5])
+console.log(months[9])
+
+//2
+
+var days = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
+
+console.log(days[6])
+
+//3
+
+var numbers = [2, -4, 5, -2, -11]
+
+
+for (let index = 0; index < numbers.length; index++) {
+    if (numbers[index]<0) {
+       console.log(numbers[index])
+    } }
+
+    
+//4
+
+var nums = [5, 15, -5, 20, 12, 18, 72, 14, 9]
+
+for (let index = 0; index < nums.length; index++) {
+    if (nums[index]%3==0) {
+        console.log(nums[index])
+        
+    }}
+
+//5
+
+var arrays = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3,
+    10, 26, 7]];
+
+    
+  console.log(
+    "Index of number " +
+      arrays[0][3] +
+      " of the [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]] is: [0][3]"
+  );
+
+  console.log(arrays[2]);
+  console.log(arrays[2][1]);
