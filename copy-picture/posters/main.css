@@ -1,0 +1,35 @@
+h1{
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 90px;
+}
+
+.center  {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+a {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+
+.link-other-page{
+    justify-content: left;
+}
