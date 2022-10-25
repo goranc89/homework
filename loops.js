@@ -19,6 +19,12 @@ var cube= i*i*i;
 
 console.log(cube + " je kubni stepen od broja " + n);
 
+/////////////////////////////////////////////////////////
+//Komentar: zbog cega ides od i=1 i zbog cega ides i*i*i? :)
+///////////////////////////////////////////////////
+
+
+
 
 //3
 
